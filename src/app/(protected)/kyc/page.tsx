@@ -108,8 +108,8 @@ function Kyc() {
   }
 
   return (
-    <div className="h-screen flex bg-blue-950 bg-[url('/pattern.png')] bg-no-repeat bg-contain bg-center">
-      <div className="bg-white my-auto mx-auto md:w-full md:max-w-md rounded-2xl shadow-md">
+    <div className="min-h-screen flex bg-blue-950 bg-[url('/pattern.png')] bg-no-repeat bg-contain bg-center">
+      <div className="bg-white mt-24 mb-8 sm:my-auto mx-auto md:w-full md:max-w-md rounded-2xl shadow-md">
         <h2 className="w-10/12 mt-8 mx-auto text-center text-2xl/9 font-bold tracking-tight text-gray-600">
           Complete verification process
         </h2>
